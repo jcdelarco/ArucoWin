@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9361394D-92DC-4A40-B0A0-6FD52C9F4C34}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5" "-BC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build" --check-stamp-file "C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeCCompiler.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVConfig-version.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVConfig.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVModules.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\cmake_uninstall.cmake.in;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\config.cmake.in;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5" "-BC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build" --check-stamp-file "C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeCCompiler.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVConfig-version.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVConfig.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVModules.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\cmake_uninstall.cmake.in;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\config.cmake.in;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5" "-BC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build" --check-stamp-file "C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeCCompiler.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVConfig-version.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVConfig.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVModules.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\cmake_uninstall.cmake.in;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\config.cmake.in;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5" "-BC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build" --check-stamp-file "C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeCCompiler.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\3.1.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVConfig-version.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVConfig.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\OpenCVModules.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindGLUT.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.1\Modules\CMakeParseArguments.cmake;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\cmake_uninstall.cmake.in;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\config.cmake.in;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/ZERO_CHECK.vcxproj">
+      <Project>646F67C5-2E66-4409-B700-6F234FBCAA12</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/src/aruco.vcxproj">
+      <Project>E5D876B2-20A0-4790-9EFF-C101943727B6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_board_pix2meters.vcxproj">
+      <Project>251AD9DD-D465-44A6-A84E-CD2ADE47E6FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_calibration.vcxproj">
+      <Project>036C0988-86DB-4F81-BDE7-79B321625A57</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_create_board.vcxproj">
+      <Project>3DB53DE0-0299-4E3C-9BE8-D3F11FEDFA00</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_create_marker.vcxproj">
+      <Project>90DDBB64-B608-49AD-8A31-8002748011A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils_hrm/aruco_hrm_create_board.vcxproj">
+      <Project>D6FD2F9E-734A-4EC4-8C73-E0E8028C43C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils_hrm/aruco_hrm_create_dictionary.vcxproj">
+      <Project>696767A3-0A27-4776-AA6C-111BB3ABD68A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils_hrm/aruco_hrm_test.vcxproj">
+      <Project>B82EC92B-1D06-41F1-BB2E-766026B88B08</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils_hrm/aruco_hrm_test_board.vcxproj">
+      <Project>903CBC56-78DE-4C2A-878A-DAB4A6651C3F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_selectoptimalmarkers.vcxproj">
+      <Project>B11C9A8E-DB36-470A-B14B-8DB83560CD05</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_simple.vcxproj">
+      <Project>4C4EB0E5-1E53-4B86-BDDB-9B7C25A9C4EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_simple_board.vcxproj">
+      <Project>CC56B79A-8012-4370-A6D1-77B0199AFC96</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_test.vcxproj">
+      <Project>B1CE075B-6CAE-40F1-AA44-F003AEB90A6D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/utils/aruco_test_board.vcxproj">
+      <Project>9A2B6793-23F8-4476-AD2A-FC8404830980</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

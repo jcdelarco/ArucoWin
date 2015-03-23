@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils_hrm\aruco_hrm_create_dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils_hrm\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2B3BE6FF-0C11-43A5-AE70-6125E1731EE5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

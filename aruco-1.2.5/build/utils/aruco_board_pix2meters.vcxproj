@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{251AD9DD-D465-44A6-A84E-CD2ADE47E6FF}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>aruco_board_pix2meters</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">aruco_board_pix2meters.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">aruco_board_pix2meters</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">aruco_board_pix2meters.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">aruco_board_pix2meters</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">aruco_board_pix2meters.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">aruco_board_pix2meters</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">aruco_board_pix2meters.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">aruco_board_pix2meters</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\bin\Debug\aruco125.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_videostab2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ts2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_superres2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_stitching2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_contrib2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_nonfree2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ocl2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_gpu2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_photo2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_objdetect2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_legacy2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_video2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ml2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_calib3d2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_features2d2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_highgui2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_imgproc2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_flann2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_core2410d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/bin/Debug/aruco_board_pix2meters.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/bin/Debug/aruco_board_pix2meters.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\bin\Release\aruco125.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_videostab2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_ts2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_superres2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_stitching2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_contrib2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_nonfree2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_ocl2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_gpu2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_photo2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_objdetect2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_legacy2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_video2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_ml2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_calib3d2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_features2d2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_highgui2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_imgproc2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_flann2410.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Release\opencv_core2410.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/bin/Release/aruco_board_pix2meters.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/bin/Release/aruco_board_pix2meters.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\bin\MinSizeRel\aruco125.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_videostab2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ts2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_superres2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_stitching2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_contrib2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_nonfree2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ocl2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_gpu2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_photo2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_objdetect2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_legacy2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_video2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ml2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_calib3d2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_features2d2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_highgui2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_imgproc2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_flann2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_core2410d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/bin/MinSizeRel/aruco_board_pix2meters.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/bin/MinSizeRel/aruco_board_pix2meters.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\include\opencv;C:\Users\Juan;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Carlos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\del;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Arco\Desktop\Proyectos;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\core\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\flann\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\imgproc\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\highgui\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\features2d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\calib3d\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ml\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\video\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\legacy\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\objdetect\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\photo\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\gpu\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ocl\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\nonfree\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\contrib\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\stitching\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\superres\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\ts\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\Cmake\opencv\sources\modules\videostab\include;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\bin\RelWithDebInfo\aruco125.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_videostab2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ts2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_superres2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_stitching2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_contrib2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_nonfree2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ocl2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_gpu2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_photo2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_objdetect2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_legacy2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_video2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_ml2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_calib3d2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_features2d2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_highgui2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_imgproc2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_flann2410d.lib;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\opencv\sources\build\lib\Debug\opencv_core2410d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/bin/RelWithDebInfo/aruco_board_pix2meters.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/bin/RelWithDebInfo/aruco_board_pix2meters.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/utils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5" "-BC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build" --check-stamp-file "C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\utils\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/utils/CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\utils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/utils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5" "-BC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build" --check-stamp-file "C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\utils\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/utils/CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\utils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/utils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5" "-BC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build" --check-stamp-file "C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\utils\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/utils/CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\utils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/utils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-HC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5" "-BC:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build" --check-stamp-file "C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\utils\CMakeFiles\generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/utils/CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt;C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\utils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\utils\aruco_board_pix2meters.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/ZERO_CHECK.vcxproj">
+      <Project>646F67C5-2E66-4409-B700-6F234FBCAA12</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Juan Carlos del Arco/Desktop/Proyectos Cmake/aruco-1.2.5/build/src/aruco.vcxproj">
+      <Project>E5D876B2-20A0-4790-9EFF-C101943727B6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

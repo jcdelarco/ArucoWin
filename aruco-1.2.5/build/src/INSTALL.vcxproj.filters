@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Juan Carlos del Arco\Desktop\Proyectos Cmake\aruco-1.2.5\build\CMakeFiles\7d9f3ca0ae759d6bf23487e1b76c58e8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{54AE79B4-6D2C-4E45-9331-1699B7E6A620}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
